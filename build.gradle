@@ -212,7 +212,7 @@ String getVersionFromJava(File file) {
         return "$major.$minor.$revision-$branchNameOrTag"
     }
 
-    String build = getBuildNumber()
+    String build = "419"
 
     return "$major.$minor.$revision.$build"
 }
